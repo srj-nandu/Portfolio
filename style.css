@@ -929,6 +929,14 @@ img {
 }
 
 @media (max-width: 768px) {
+    .contact-item {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .contact-details {
+        align-items: flex-start;
+    }
     .navbar .container {
         padding: 0 15px;
     }
@@ -1016,4 +1024,5 @@ img {
         justify-content: center;
     }
 }
+
 
