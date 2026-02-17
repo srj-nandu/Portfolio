@@ -914,8 +914,9 @@ img {
     }
 
     .detail-item {
-        justify-content: center;
-    }
+    justify-content: flex-start;
+    text-align: left;
+}
 
     .footer-content {
         grid-template-columns: 1fr;
@@ -1015,3 +1016,4 @@ img {
         justify-content: center;
     }
 }
+
